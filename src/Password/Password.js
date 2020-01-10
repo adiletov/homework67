@@ -9,7 +9,7 @@ class Password extends Component {
         const numbers = [1,2,3,4,5,6,7,8,9,0];
         return (
             <div className="block">
-                    <input type={this.props.type} defaultValue={this.props.result} style={{background: this.props.style}} />
+                    <input type={this.props.type} defaultValue={this.props.result} disabled style={{background: this.props.style}} />
                 <div className='btnBlock'>
                     {numbers.map((key, index)=>{
                         return (
